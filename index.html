@@ -1,0 +1,55 @@
+<div class="four-col gu-beta">
+
+	<div class="insider">
+		<h3><a href="#">beta.guardian</a></h3>
+				
+		{% if url %}
+		</div>
+			<iframe width="300" height="450" src="{{url}}" frameborder="0"></iframe>
+			<div class="insider">
+		{% endif %}
+		
+		<p>This is an experimental <a href="#">beta.guardian</a> component, which we are testing on the website. It might break or behave oddly. Let us know what you think with the buttons below, or find out more about <a href="#">beta.guardian</a></p>
+		
+		<div class="feedback">
+			<a href="#" class="love fancy-button fancy-button-inline">Love it</a> <a href="#" class="hate fancy-button fancy-button-inline">Hate it</a>
+		</div>
+	</div>
+		
+</div>
+
+<style>
+.gu-beta {
+    background: url(http://www.currybet.net/gdn/beta/cool-shit-backing.gif);
+}
+
+.gu-beta .insider {
+	margin: 12px;
+}
+
+.gu-beta h3 {
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.gu-beta p {
+    line-height: 18px;
+}
+
+.gu-beta .feedback {
+	text-align: right;
+	margin-top: 10px;
+}
+
+.gu-beta .love {
+    background-color: green;
+}
+
+.gu-beta .hate {
+    background-color: red;
+}
+
+.gu-beta iframe {
+	background: #fff;
+}
+</style>

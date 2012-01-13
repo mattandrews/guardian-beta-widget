@@ -1,0 +1,12 @@
+application: guardian-beta
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+
+- url: /component\.html
+  script: main.py
+
+- url: /.*
+  script: main.py
